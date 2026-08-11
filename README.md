@@ -9,6 +9,7 @@
 [![macOS](https://img.shields.io/badge/macOS%2013%2B-Apple%20Silicon-111?logo=apple&logoColor=white)](#install--macos)
 [![Windows](https://img.shields.io/badge/Windows%2010%2F11-x64%20·%20beta-0078D4?logo=windows&logoColor=white)](#install--windows-beta)
 [![Release](https://img.shields.io/github/v/release/mertcanmerkit/glansync-releases?label=version&color=1fb6e8)](https://github.com/mertcanmerkit/glansync-releases/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/mertcanmerkit/glansync-releases/total?label=downloads&color=2ea44f)](https://github.com/mertcanmerkit/glansync-releases/releases)
 [![Website](https://img.shields.io/badge/glansync.com-visit-555)](https://glansync.com)
 
 </div>
