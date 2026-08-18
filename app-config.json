@@ -1,1 +1,8 @@
-{"version":1,"paymentsEnabled":false,"resetTrialOnEnable":true,"latestVersion":"0.6.1","downloadUrl":"https://glansync.com/#download","downloadUrlWin":"https://github.com/mertcanmerkit/glansync-releases/releases/latest/download/GLanSync-Setup-x64.exe"}
+{
+  "version": 1,
+  "paymentsEnabled": false,
+  "resetTrialOnEnable": true,
+  "latestVersion": "0.6.2",
+  "downloadUrl": "https://glansync.com/#download",
+  "downloadUrlWin": "https://github.com/mertcanmerkit/glansync-releases/releases/latest/download/GLanSync-Setup-x64.exe"
+}
