@@ -6,7 +6,7 @@
 
 **Screen &amp; music sync for your Govee lights. Local over your LAN, no cloud.**
 
-[![macOS](https://img.shields.io/badge/macOS%2013%2B-Apple%20Silicon-111?logo=apple&logoColor=white)](#install--macos)
+[![macOS](https://img.shields.io/badge/macOS%2013%2B-Apple%20Silicon%20·%20Intel-111?logo=apple&logoColor=white)](#install--macos)
 [![Windows](https://img.shields.io/badge/Windows%2010%2F11-x64%20·%20beta-0078D4?logo=windows&logoColor=white)](#install--windows-beta)
 [![Release](https://img.shields.io/github/v/release/mertcanmerkit/glansync-releases?label=version&color=1fb6e8)](https://github.com/mertcanmerkit/glansync-releases/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/mertcanmerkit/glansync-releases/total?label=downloads&color=2ea44f)](https://github.com/mertcanmerkit/glansync-releases/releases)
@@ -20,13 +20,16 @@ This repository hosts the **downloads** for GLanSync. The application source is 
 
 | Platform | Download | Requirements | Notes |
 | --- | --- | --- | --- |
-| **macOS** | [GLanSync-mac-arm64.dmg](https://github.com/mertcanmerkit/glansync-releases/releases/latest/download/GLanSync-mac-arm64.dmg) · [zip](https://github.com/mertcanmerkit/glansync-releases/releases/latest/download/GLanSync-mac-arm64.zip) | macOS 13+, Apple Silicon | Signed, not yet notarized — see below |
+| **macOS (Apple Silicon)** | [GLanSync-mac-arm64.dmg](https://github.com/mertcanmerkit/glansync-releases/releases/latest/download/GLanSync-mac-arm64.dmg) · [zip](https://github.com/mertcanmerkit/glansync-releases/releases/latest/download/GLanSync-mac-arm64.zip) | macOS 13+, M1 and newer | Signed, not yet notarized — see below |
+| **macOS (Intel)** | [GLanSync-mac-x64.dmg](https://github.com/mertcanmerkit/glansync-releases/releases/latest/download/GLanSync-mac-x64.dmg) · [zip](https://github.com/mertcanmerkit/glansync-releases/releases/latest/download/GLanSync-mac-x64.zip) | macOS 13+, Intel x64 | New in 0.6.5. Signed, not yet notarized — see below |
 | **Windows** | [GLanSync-Setup-x64.exe](https://github.com/mertcanmerkit/glansync-releases/releases/latest/download/GLanSync-Setup-x64.exe) | Windows 10/11, x64 | **Beta** |
 | **Windows on ARM** | [GLanSync-Setup-arm64.exe](https://github.com/mertcanmerkit/glansync-releases/releases/latest/download/GLanSync-Setup-arm64.exe) | Snapdragon / ARM64 PCs | **Beta** |
 
 SHA-256 checksums and older versions live on the [Releases page](https://github.com/mertcanmerkit/glansync-releases/releases).
 
 ## Install — macOS
+
+Apple Silicon Macs (M1 and newer) use the **arm64** download; Intel Macs use the **x64** download. Not sure which you have? Apple menu → About This Mac: "Chip: Apple M…" means arm64, "Processor: Intel…" means x64.
 
 1. Open the `.dmg` and drag **GLanSync** into **Applications**.
 2. Double-click it once. macOS says it *"cannot be opened because the developer cannot be verified"* — close that dialog.
