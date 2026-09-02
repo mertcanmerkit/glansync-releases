@@ -53,26 +53,26 @@ On Snapdragon / ARM64 machines, use the **arm64** installer instead.
 
 ## What it does
 
-- **Screen sync** — mirrors your display's colors to your lights in real time, with per-device screen areas and 4–255 sampling zones.
+- **Screen sync** — mirrors your display's colors to your lights in real time, with per-device screen areas, 4–255 sampling zones and per-device layouts for light-bar pairs, TV backlight loops and panel arrays (you pick how your lights are installed and preview it on the lights — Govee devices never report it).
 - **Music sync** — system audio or microphone drives the lights: palettes, motion patterns, spectrum presets, stereo panning. System audio uses native WASAPI loopback on Windows.
 - **Scenes and groups** — scenes play mirrored or flow device-to-device; each group stores its own full configuration.
 - **Menu bar / tray controls** and `glansync://` deep links (Siri Shortcuts on macOS, Automation URLs on Windows).
 
-Control is 100% local: the app talks to your lights over your own network. No account, no cloud, no telemetry.
+Control is 100% local: the app talks to your lights over your own network. No account, no cloud. Anonymous feature-usage counts are the only stats, and Settings → Privacy turns them off.
 
 ## Device compatibility
 
 | Tier | What you get | Devices |
 | --- | --- | --- |
 | Hardware-verified realtime | Screen + music sync, scenes, areas | Gaming Light Strip G1 (H6609) |
-| Community-verified realtime | Screen + music sync, scenes, areas | ~31 models — Glide Hexa / Y / Tri panels, RGBIC gaming &amp; TV light bars, H619x strips, neon ropes, floor lamps… |
+| Community-verified realtime | Screen + music sync, scenes, areas, device layouts | ~33 models — Glide Hexa / Y / Tri panels, RGBIC gaming &amp; TV light bars, H619x strips, neon ropes, floor lamps… |
 | Basic LAN control | Power, brightness, static color | Any Govee device exposing "LAN Control" in Govee Home |
 
 Enable **LAN Control** for each device in the Govee Home app first. The 7-day trial is there to prove compatibility on your own hardware before you pay.
 
 ## Privacy
 
-No telemetry. The app fetches a small licensing configuration file over HTTPS at launch and every ~6 hours (a plain GET — no identifiers, no cookies), and contacts Lemon Squeezy only when a license key is in use. Full policy: <https://glansync.com/privacy/>.
+The app fetches a small configuration file over HTTPS at launch and every ~6 hours (a plain GET — no identifiers, no cookies), reports anonymous feature-usage counts (random install id, app version, platform — never devices, colors or network details; off in Settings → Privacy), and contacts Lemon Squeezy only when a license key is in use. Full policy: <https://glansync.com/privacy/>.
 
 ## Support
 
