@@ -4,6 +4,6 @@
   "resetTrialOnEnable": true,
   "latestVersion": "0.6.9",
   "downloadUrl": "https://glansync.com/#download",
-  "downloadUrlWin": "https://github.com/mertcanmerkit/glansync-releases/releases/latest/download/GLanSync-Setup-x64.exe",
+  "downloadUrlWin": "https://glansync.com/install/?download=win-x64",
   "donateUrl": "https://glansync.com/donate"
 }
