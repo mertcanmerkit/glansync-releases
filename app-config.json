@@ -2,7 +2,7 @@
   "version": 1,
   "paymentsEnabled": false,
   "resetTrialOnEnable": true,
-  "latestVersion": "0.6.14",
+  "latestVersion": "0.6.15",
   "downloadUrl": "https://glansync.com/#download",
   "downloadUrlWin": "https://glansync.com/install/?download=win-x64",
   "donateUrl": "https://glansync.com/donate"
